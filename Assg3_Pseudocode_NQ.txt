@@ -1,0 +1,27 @@
+/*
+    Nicolas Queijo
+	Assignment 3
+	PID: 5152398
+    COP3337 - U04
+    T/R 2:00 PM - 3:15 PM
+    William Feild
+	I hereby certify that this collective work is my own and none of it is the work of any other person or entity. 
+ */
+
+PSEUDOCODE:
+
+1.	Print an introductory message welcoming the players and describing the objective of the game.
+2.	Print a message educating the users in regards to input validation.
+3.	Print a sample board as a guide which resembles the numeric keypad.
+4.	Print a message instructing the user how to start the game.
+5.	Create an instance of a TicTacToe object.
+6.	While there is no winner and 9 turns have not elapsed keep prompting the user to enter input as long as the input is an integer.
+7.	Once input is cleared as being an integer, check that it falls within valid range (1-9) and that the cell is no already occupied.
+8.	If any of those checks fail, keep re-prompting until the input is valid.
+9.	Once the input is valid, store an ‘X’ to the corresponding cell if it was player 1's turn or an ‘O’ if it was player 2's turn.
+10.	Increment the turn counter.
+11.	Print the sample board to have it as a reference/guide.
+12.	Print the actual board that displays the game as it stands.
+13.	Check if a winner has been determined.
+14.	Repeat steps 6-13 while a winner has not been determined or 9 turns have not elapsed.
+15.	Once the game is over (winner is determined or 9 turns have elapsed(draw)) display the results to the user.
