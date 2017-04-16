@@ -1,5 +1,5 @@
 # Tic-Tac-Toe game in Java. 
-#Played between two players on the console.
+# Played between two players on the console.
 
 Assignment 3 Specifications
 
